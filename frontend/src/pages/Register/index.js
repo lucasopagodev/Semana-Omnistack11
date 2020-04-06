@@ -8,7 +8,7 @@ import './style.css';
 import logoImg from '../../assets/logo.svg';
 
 export default function Register() {
-    const [name, setName] = useState('');
+        const [name, setName] = useState(''); 
     const [email, setEmail] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
     const [city, setCity] = useState('');
